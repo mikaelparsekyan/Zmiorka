@@ -71,7 +71,6 @@ public class MenuPanel extends JPanel implements ActionListener {
 		public void keyPressed(KeyEvent event) {
 
 			if (event.getKeyCode() == KeyEvent.VK_ENTER) {
-				System.out.println("CLICKED?");
 				startGame();
 				removeKeyListener(this);
 			}

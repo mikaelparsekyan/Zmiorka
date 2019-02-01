@@ -194,7 +194,6 @@ public class ZmiorkaGame extends JPanel implements ActionListener {
 					try {
 						isGoldAppleThreadWork = true;
 						Thread.sleep(gold_apple_timer);
-						System.out.println(gold_apple_timer);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					} finally {
@@ -290,7 +289,6 @@ public class ZmiorkaGame extends JPanel implements ActionListener {
 			y_coordinates[i] = y_coordinates[(i - 1)];
 			if (x_coordinates[i + 1] == appleX && y_coordinates[i + 1] == appleY) {
 				addApple();
-				System.out.println("otgore e normal");
 			}
 		}
 	}
